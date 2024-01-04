@@ -2,6 +2,7 @@
 For NLP course
 
 
+![img](checkpoint/training_loss.png)
 
 # Reference
 @article{lightman2023let,   
