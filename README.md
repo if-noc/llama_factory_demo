@@ -3,9 +3,6 @@ For NLP course, tried on two datasets, including prm800k and reddit tl;dr datase
 Model: LLaMA-7b  
 Device: Multi-GPU  
 
-# TL;DR Output Example
-{  "label":   "Progress is still happening, even when you think it might not be! Don't get discouraged, even if your journey seems to be going slowly. Don't give up, warriors.",   "predict":   "I was stuck at 222 for 4 weeks, got sick, weighed myself today and lost 8 inches!"  }
-
 # Loss Curve
 ![img](checkpoint/training_loss.png)
 
