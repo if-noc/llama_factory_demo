@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch  src/train_bash.py \
+    --template default \
+    --model_name_or_path /mnt/huoyifu/LLaMA-Efficient-Tuning/models/summarization/sft-llama_2_7b \
+    --do_predict \
+    --dataset tldr_train_with_prompt \
+    --finetuning_type full \
+    --output_dir /mnt/huoyifu/LLaMA-Efficient-Tuning/checkpoints/summarization/sft-llama_2_7b \
+    --per_device_eval_batch_size 4 \
+    --resume_lora_training False \
+    --max_samples 20000 \
+    --predict_with_generate

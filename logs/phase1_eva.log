@@ -1,0 +1,26 @@
+[2023-11-21 11:25:48,277] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-21 11:25:48,278] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+FlashAttention-2 is not installed, ignore this if you are not using FlashAttention.
+FlashAttention-2 is not installed, ignore this if you are not using FlashAttention.
+11/21/2023 11:27:02 - INFO - llmtuner.tuner.core.adapter - Fine-tuning method: LoRA
+11/21/2023 11:27:02 - INFO - llmtuner.tuner.core.adapter - Fine-tuning method: LoRA
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.adapter - Merged 1 model checkpoint(s).
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.adapter - Loaded fine-tuned model from checkpoint(s): checkpoint
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.loader - trainable params: 0 || all params: 6738415616 || trainable%: 0.0000
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.loader - This IS expected that the trainable params is 0 if you are using model for inference only.
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.adapter - Merged 1 model checkpoint(s).
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.adapter - Loaded fine-tuned model from checkpoint(s): checkpoint
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.loader - trainable params: 0 || all params: 6738415616 || trainable%: 0.0000
+11/21/2023 11:27:34 - INFO - llmtuner.tuner.core.loader - This IS expected that the trainable params is 0 if you are using model for inference only.
+11/21/2023 11:27:41 - INFO - llmtuner.extras.template - Add pad token: </s>
+11/21/2023 11:27:43 - INFO - llmtuner.extras.template - Add pad token: </s>
+        Average: 27.27
+           STEM: 25.12
+Social Sciences: 32.36
+     Humanities: 31.52
+          Other: 23.18
+        Average: 27.27
+           STEM: 25.12
+Social Sciences: 32.36
+     Humanities: 31.52
+          Other: 23.18

@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=6 accelerate launch src/train_bash.py \
+    --stage sft \
+    --model_name_or_path /mnt/huoyifu/LLaMA-Efficient-Tuning/models/llama-7b \
+    --do_predict \
+    --dataset tldr_train \
+    --template default \
+    --finetuning_type full \
+    --checkpoint_dir /mnt/huoyifu/LLaMA-Efficient-Tuning/checkpoint/ \
+    --output_dir /mnt/huoyifu/LLaMA-Efficient-Tuning/checkpoint/output \
+    --per_device_eval_batch_size 4 \
+    --max_samples 20000 \
+    --predict_with_generate \
+    --bf16
