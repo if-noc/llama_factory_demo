@@ -1,7 +1,9 @@
 # llama_factory_demo
-For NLP course
+For NLP course, tried on two datasets, including prm800k and reddit tl;dr datasets.
+Model: LLaMA-7b
+Device: Multi-GPU
 
-
+# Loss Curve
 ![img](checkpoint/training_loss.png)
 
 # Reference
