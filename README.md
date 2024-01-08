@@ -4,12 +4,12 @@ Model: LLaMA-7b
 Device: Multi-GPU  
 
 # Result Samples
-Samples output by LLaMA-2-7b in two tasks above.
+Samples output by LLaMA-2-7b in two tasks above.  
 ![img](checkpoint/image5.png)
 ![img](checkpoint/image6.png)
 
 # Loss Curves
-Loss Curves in two different tasks.
+Loss Curves in two different tasks.  
 ![img](checkpoint/training_loss.png)
 ![img](checkpoint/image4.png)
 
