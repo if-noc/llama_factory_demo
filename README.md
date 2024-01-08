@@ -3,8 +3,15 @@ For NLP course, tried on two datasets, including prm800k and reddit tl;dr datase
 Model: LLaMA-7b  
 Device: Multi-GPU  
 
-# Loss Curve
+# Result Samples
+Samples output by LLaMA-2-7b in two tasks above.
+![img](checkpoint/image5.png)
+![img](checkpoint/image6.png)
+
+# Loss Curves
+Loss Curves in two different tasks.
 ![img](checkpoint/training_loss.png)
+![img](checkpoint/image4.png)
 
 # Reference
 @article{lightman2023let,   
